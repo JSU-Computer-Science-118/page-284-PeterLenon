@@ -11,7 +11,7 @@ int main()
   srand(time(0));
   for (int i =0; i< num; i++)
   {
-    cout<<rand()<<" "<<endl;
+    cout<<rand()%101<<" ";
   }
   return 0;
 }
